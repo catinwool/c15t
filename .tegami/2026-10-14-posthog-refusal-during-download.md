@@ -1,6 +1,8 @@
 ---
 packages:
-  '@c15t/integrations': patch
+  "@c15t/integrations":
+    replay:
+      - exit-prerelease(npm:@c15t/integrations)
 ---
 
 ### PostHog no longer starts after a refusal that lands mid-download

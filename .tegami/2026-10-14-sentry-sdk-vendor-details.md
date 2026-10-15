@@ -1,6 +1,8 @@
 ---
 packages:
-  '@c15t/integrations': patch
+  "@c15t/integrations":
+    replay:
+      - exit-prerelease(npm:@c15t/integrations)
 ---
 
 ### List Sentry in the preference dialog when the app runs the Sentry SDK
